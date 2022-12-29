@@ -8,7 +8,7 @@ I was working with the actual information in the dataset and performing my own i
 
 + Import dataset 
 + Analyze a dataset by building out functions or class methods
-+ Use libraries to assist in your analysis
++ Use libraries to assist my analysis
 + Document and organize my findings
 + Make predictions about a dataset’s features based on my findings
 
