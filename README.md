@@ -1,4 +1,4 @@
-# U.S. Medical Insurance
+# US Medical Insurance
 
 ## Description 
 For this project, I will be investigating a medical insurance costs dataset in a .csv file using the Python
