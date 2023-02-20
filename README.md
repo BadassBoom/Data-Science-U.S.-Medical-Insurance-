@@ -1,20 +1,34 @@
-# US Medical Insurance
+# Insurance-Analyzer
 
-## Description 
-For this project, I will be investigating a medical insurance costs dataset in a .csv file using the Python
-I was working with the actual information in the dataset and performing my own independent analysis on real-world data. 
+This Python program reads a csv file containing health insurance information and performs various analyses of the data.
 
-## Project Objectives 
+## Dependencies
 
-+ Import dataset 
-+ Analyze a dataset by building out functions or class methods
-+ Use libraries to assist my analysis
-+ Document and organize my findings
-+ Make predictions about a dataset’s features based on my findings
+* Python 3.x
+* **'csv'** module (included with Python)
 
-## Helpful Resources
+## Usage
 
-Check out these helpful resources:
+1. Clone this repository or download the **'insurance.csv'** file and **'insurance_analyzer.py'** file into the same directory.
+1. Run the **'insurance_analyzer.py'** file with Python 3.x.
+1. The program will output the following analyses of the data:
+  * The average age of the patients
+  * The number of male and female patients
+  * The difference in average cost between smokers and non-smokers
+  * The unique regions of the patients
+  * The average age of patients with at least one child
+  * The average yearly medical insurance charges of the patients
+  
+## Example
 
-+ [Python3 Documentation](https://docs.python.org/3/)
-+ [CSV Library](https://docs.python.org/3/library/csv.html)
+```
+    $ python insurance_analyzer.py
+    Average Patient Age: 39.21 years
+    Number of males in the list: 676
+    Number of females in the list: 662
+    Average Insurance Cost For Smokers: $32050.23 dollars.
+    Average Insurance Cost For Non-smokers: $8434.27 dollars.
+    Unique Regions: ['southwest', 'southeast', 'northwest', 'northeast']
+    Average patients age who have at least one child: 39
+    Average Yearly Medical Insurance Charges: 13270.42 dollars.
+```
